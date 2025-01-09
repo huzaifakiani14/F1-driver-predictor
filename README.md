@@ -26,7 +26,7 @@ This project aims to predict the finishing positions of all Formula 1 drivers in
 *   **Confusion Matrix:** A confusion matrix is generated to visualize the model's predictions and identify areas where it might be making errors.
 *   **Feature Importance Analysis:** Techniques like permutation feature importance can be used to assess the relative importance of different features in the model's predictions.
 
-## Key Tools and Libraries**
+## Key Tools and Libraries
 
 *   **TensorFlow/Keras:** For building and training the neural network model.
 *   **SMOTE (Synthetic Minority Over-sampling Technique):** To balance the dataset and address class imbalance among drivers.
