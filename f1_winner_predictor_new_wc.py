@@ -186,7 +186,7 @@ reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=5, min_lr
 # Train the model
 history = model.fit(
     X_train, y_train,
-    epochs=25,
+    epochs=35,
     batch_size=64,
     validation_split=0.2,
     class_weight=class_weights_dict,
